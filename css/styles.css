@@ -80,8 +80,11 @@
 #cta .container-fluid {
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: center;
     font-size: 20px;
+}
+
+#cta .row {
+    justify-content: center;
 }
 
 #cta label {
@@ -175,6 +178,10 @@
 #contact h1,
 #contact label {
     color: #FCFAF9;
+}
+
+#backToTop .row {
+    justify-content: center;
 }
 
 #contact ul {

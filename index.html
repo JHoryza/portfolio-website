@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joseph Horyza</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
@@ -100,10 +100,12 @@
     <!--Call to action-->
     <div id="cta">
         <div class="container-fluid">
-            <form class="form-inline">
-                <label>Want to work with me?</label>
-                <a href="#contact"><input type="button" value="Let's Chat" class="btn"></a>
-            </form>
+            <div class="row">
+                <form class="form-inline">
+                    <label>Want to work with me?</label>
+                    <a href="#contact"><input type="button" value="Let's Chat" class="btn"></a>
+                </form>
+            </div>
         </div>
     </div>
     <!--Projects-->
@@ -148,63 +150,13 @@
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="img/background-0.jpg" style="width: 50%; margin: auto; max-height: 256px;"
+                                            <img src="img/background-0.jpg"
+                                                style="width: 50%; margin: auto; max-height: 256px;"
                                                 class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="img/background-1.jpg" style="width: 50%; margin: auto; max-height: 256px;"
-                                                class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/background-2.jpg"
-                                                style="width: 50%; margin: auto;  max-height: 256px;"
-                                                class="d-block w-100" alt="...">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card" style="background-image: url('img/project1.jpg'); background-size: 100% 100%;">
-                    <div class="card-info">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h1>Cultivate</h1>
-                                    <h6>Android : Java : SQLite</h6>
-                                </div>
-                                <div class="col-4">
-                                    <button type="button" class="btn">Repository</button>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="row">
-                                <p>
-                                    An app for helping you cultivate new habits to improve your life. Care for plants
-                                    that
-                                    represent the habits you'd like to maintain.
-                                </p>
-                            </div>
-                            <div class="row">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
-                                    style="width: 100%; margin: auto;">
-                                    <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselExampleIndicators"
-                                            data-bs-slide-to="0" class="active" aria-current="true"
-                                            aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators"
-                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators"
-                                            data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                    </div>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="img/background-0.jpg" style="width: 50%; margin: auto; max-height: 256px;"
-                                                class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/background-1.jpg" style="width: 50%; margin: auto; max-height: 256px;"
+                                            <img src="img/background-1.jpg"
+                                                style="width: 50%; margin: auto; max-height: 256px;"
                                                 class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
@@ -252,11 +204,67 @@
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="img/background-0.jpg" style="width: 50%; margin: auto; max-height: 256px;"
+                                            <img src="img/background-0.jpg"
+                                                style="width: 50%; margin: auto; max-height: 256px;"
                                                 class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="img/background-1.jpg" style="width: 50%; margin: auto; max-height: 256px;"
+                                            <img src="img/background-1.jpg"
+                                                style="width: 50%; margin: auto; max-height: 256px;"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/background-2.jpg"
+                                                style="width: 50%; margin: auto;  max-height: 256px;"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background-image: url('img/project1.jpg'); background-size: 100% 100%;">
+                    <div class="card-info">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-8">
+                                    <h1>Cultivate</h1>
+                                    <h6>Android : Java : SQLite</h6>
+                                </div>
+                                <div class="col-4">
+                                    <button type="button" class="btn">Repository</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <p>
+                                    An app for helping you cultivate new habits to improve your life. Care for plants
+                                    that
+                                    represent the habits you'd like to maintain.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                                    style="width: 100%; margin: auto;">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="0" class="active" aria-current="true"
+                                            aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/background-0.jpg"
+                                                style="width: 50%; margin: auto; max-height: 256px;"
+                                                class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/background-1.jpg"
+                                                style="width: 50%; margin: auto; max-height: 256px;"
                                                 class="d-block w-100" alt="...">
                                         </div>
                                         <div class="carousel-item">
@@ -310,16 +318,17 @@
                     </ul>
                 </div>
             </div>
-            <div class="row" id="backToTop">
-                <a href="#">
-                    <i class="bi bi-arrow-up-square-fill"></i>
-                    <br>
-                    <span class="badge">Back to top</span></a>
+            <div id="backToTop">
+                <div class="row">
+                    <a href="#">
+                        <i class="bi bi-arrow-up-square-fill"></i>
+                        <br>
+                        <span class="badge">Back to top</span></a>
+                </div>
             </div>
         </div>
     </div>
-
-    <script src="js/bootstrap.min.js"></script>
+    <script language="javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/typewritter.js"></script>
 </body>
