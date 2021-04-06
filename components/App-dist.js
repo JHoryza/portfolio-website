@@ -1,3 +1,4 @@
+import About from './About-dist.js';
 import CallToAction from './CallToAction-dist.js';
 import Projects from './Projects-dist.js';
 import Contact from './Contact-dist.js';
@@ -8,6 +9,7 @@ class App extends React.Component {
         return React.createElement(
             'div',
             null,
+            React.createElement(About, null),
             React.createElement(CallToAction, null),
             React.createElement(Projects, null),
             React.createElement(Contact, null),
