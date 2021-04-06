@@ -327,14 +327,17 @@
                 </div>
             </div>
         </div>
+        <div id="root"></div>
     </div>
+    <script language="javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script language="javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/react/umd/react.development.js"></script>
+    <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="node_modules/babel-standalone/babel.min.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/typewritter.js"></script>
+    <script type="module" src="components/App-dist.js"></script>
 </body>
-<footer>Joseph Horyza &copy; <span id="year"></span></footer>
-<script>
-    document.getElementById("year").innerHTML = new Date().getFullYear();
-</script>
-
+<footer>
+</footer>
 </html>
