@@ -1,3 +1,5 @@
+import React from 'react'
+
 function CallToAction() {
     return (
         <div id="cta">

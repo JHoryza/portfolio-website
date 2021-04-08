@@ -1,6 +1,6 @@
 {
     "presets": [
-        "react"
-    ],
-    "sourceType": "module"
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
 }

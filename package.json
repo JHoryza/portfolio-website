@@ -2,9 +2,10 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "description": "A portfolio website to showcase my projects",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,17 +21,26 @@
   },
   "homepage": "https://github.com/JHoryza/portfolio-website#readme",
   "dependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
     "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
     "babel-preset-react": "^6.24.1",
     "babel-preset-react-app": "^3.1.2",
     "babel-standalone": "^6.26.0",
     "bootstrap": "^4.6.0",
     "bootstrap-icons": "^1.4.1",
     "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "popper.js": "^1.16.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "webpack": "^5.31.0",
+    "webpack-cli": "^4.6.0"
   }
 }
