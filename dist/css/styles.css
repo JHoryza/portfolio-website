@@ -226,45 +226,24 @@ html {
 }
 
 /* Navbar */
-.nav-wrapper { 
-    min-height: 61px; 
- }
-
-#navbar {
-    overflow: hidden;
+.navbar {
     background-color: #2E4057;
-    z-index: 9999;
     border-top: 5px solid #AF9164;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
-#navbar a:hover {
+.nav-link:hover {
     color: #AF9164;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement 
-(as the navigation bar gets a new position at the top of the page */
-.sticky+.content {
-    padding-top: 60px;
 }
 
 #about:target:before {
     content: "";
     display: block;
-    height: 61px;
-    margin: -61px 0 0;
+    height: 57px;
+    margin: -57px 0 0;
 }
-
-#nav, .nav-wrapper {
-    height:57px;
-}
-
 
 .card {
     background-image: url('../img/project1.jpg');
