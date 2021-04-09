@@ -13,11 +13,20 @@ html {
 }
 
 /* Sections */
+.home-bg {
+    background-image: url('../img/background.jpg');
+    background-size: 100% auto;
+}
+
 #home {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#home span {
+    color: #FCFAF9;
 }
 
 #home div {
