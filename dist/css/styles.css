@@ -1,6 +1,15 @@
 html {
     scroll-behavior: smooth;
 }
+
+a {
+    color: #AF9164;
+}
+
+a:hover {
+    color: #669BBC;
+}
+
 /* Buttons */
 .btn {
     background-color: #AF9164;
@@ -105,10 +114,6 @@ html {
     font-weight: bold;
 }
 
-#projects .row {
-    justify-content: center;
-}
-
 #projects .card {
     width: 384px;
     height: 448px;
@@ -144,19 +149,29 @@ html {
     opacity: 1;
 }
 
-#projects .card h1,
-#projects .card h6 {
+#projects .project-wrap {
+    justify-content: center;
+}
+
+#projects .card h1 {
     text-align: left;
     color: #FCFAF9;
     margin: 0;
 }
 
-#projects .card h6 {
-    font-weight: normal;
+#projects .badge {
+    margin-right: 5px;
+    color: #FCFAF9;
 }
 
 #projects .col-4 {
     margin: auto;
+}
+
+#projects p,
+#projects a {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 #projects img {
@@ -167,6 +182,7 @@ html {
 #projects .content-header {
     text-align: center;
     margin-bottom: 50px;
+    width: 100vw;
 }
 
 #projects .section-hr {
@@ -252,20 +268,4 @@ html {
     display: block;
     height: 57px;
     margin: -57px 0 0;
-}
-
-.card {
-    background-image: url('../img/project1.jpg');
-    background-size: 100% 100%;
-}
-
-#carouselExampleIndicators {
-    width: 100%;
-    margin: auto;
-}
-
-.carousel-item img {
-    width: 50%;
-    margin: auto;
-    max-height: 256px;
 }
