@@ -15,7 +15,7 @@ class ProjectCard extends React.Component {
                                 ))}
                             </div>
                             <div className="col-4">
-                                <button type="button" className="btn">GitHub</button>
+                                <a class="btn" href={this.props.repo} target="_blank" role="button">GitHub</a>
                             </div>
                         </div>
                         <hr />
