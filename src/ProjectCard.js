@@ -21,10 +21,16 @@ class ProjectCard extends React.Component {
                                 {this.props.description}
                             </p>
                         </div>
+                        <hr />
                         <div className="row">
-                            <a href="">Click here to see more...</a>
-                            <div className="col-4">
+                            <div className="col-12 text-center">
                                 <a class="btn" href={this.props.repo} target="_blank" role="button">GitHub</a>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="row">
+                            <div className="col-12 text-center">
+                                {this.props.demo === "" ? <></> : <a class="btn" href={this.props.demo} target="_blank" role="button">{this.props.demoText}</a>}
                             </div>
                         </div>
                     </div>

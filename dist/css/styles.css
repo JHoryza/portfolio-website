@@ -143,6 +143,7 @@ a:hover {
 #projects .card .btn {
     opacity: 0;
     transition: .5s ease;
+    width: 250px;
 }
 
 #projects .card:hover .btn {
@@ -164,7 +165,7 @@ a:hover {
     color: #FCFAF9;
 }
 
-#projects .col-4 {
+#projects .col-12 {
     margin: auto;
 }
 
