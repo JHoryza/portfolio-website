@@ -7,4 +7,4 @@ A portfolio website to showcase my projects to prospective employers. Built usin
 - Contact form
 - Custom JavaScript
 
-![alt text](https://imgur.com/a/9rPSlXW)
+![alt text](https://i.imgur.com/JtveptS.png)
