@@ -1,7 +1,7 @@
 <?php
 
 $errors = '';
-$myemail = 'joseph.horyza@outlook.com';//<-----Put Your email address here.
+$myemail = 'joseph.horyza@outlook.com';
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message'])) {
@@ -35,13 +35,8 @@ if( empty($errors)) {
     $headers .= "Reply-To: $email_address";
 
     mail($to,$email_subject,$email_body,$headers);
-
-    //redirect to the 'thank you' page
-
     header('Location: index.html');
-
     alert("Message receieved.");
-
 }
 
 ?>

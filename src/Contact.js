@@ -27,22 +27,19 @@ function Contact() {
                 </div>
                 <div className="row">
                     <div className="col-md-12">
-                        <ul className="list-group list-group-horizontal">
+                        <ul className="list-group list-group-horizontal" id="socialMedia">
                             <li className="list-group-item">
-                                <i className="bi bi-linkedin" />
+                                <a href="https://www.linkedin.com/in/joseph-horyza-a42b5720a/" target="_blank"><i className="bi bi-linkedin" /></a>
                             </li>
                             <li className="list-group-item">
-                                <i className="bi bi-github" />
-                            </li>
-                            <li className="list-group-item">
-                                <i className="bi bi-twitter" />
+                                <a href="https://github.com/JHoryza" target="_blank"><i className="bi bi-github" /></a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div id="backToTop">
                     <div className="row">
-                        <a href="#">
+                        <a href="#" id="backToTopBtn">
                             <i className="bi bi-arrow-up-square-fill" />
                             <br />
                             <span className="badge">Back to top</span>
