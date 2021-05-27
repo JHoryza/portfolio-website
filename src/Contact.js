@@ -8,7 +8,7 @@ function Contact() {
                 <div className="row">
                     <div className="col-sm-6 offset-3">
                         <h1>Contact me</h1>
-                        <form action="index.html" method="POST" className="form">
+                        <form action="contact.php" method="POST" className="form">
                             <div className="form-group">
                                 <label htmlFor="nameInput">Name</label>
                                 <input type="text" name="name" className="form-control" id="nameInput" aria-describedby="nameHelp" placeholder="Your name" />
