@@ -2,19 +2,24 @@ import React from 'react'
 
 function Contact() {
     return (
+        <>
         <div id="contact">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-sm-6 offset-3">
                         <h1>Contact me</h1>
-                        <form>
+                        <form action="index.html" method="POST" className="form">
+                            <div className="form-group">
+                                <label htmlFor="nameInput">Name</label>
+                                <input type="text" name="name" className="form-control" id="nameInput" aria-describedby="nameHelp" placeholder="Your name" />
+                            </div>
                             <div className="form-group">
                                 <label htmlFor="emailInput">Email address</label>
-                                <input type="email" className="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email" />
+                                <input type="email" name="email" className="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Your email" />
                             </div>
                             <div className="form-group">
                                 <label htmlFor="messageInput">Message</label>
-                                <textarea type="text" className="form-control" id="messageInput" placeholder="Write your message" />
+                                <textarea type="text" name="message" className="form-control" id="messageInput" placeholder="Write your message" />
                             </div>
                             <button type="submit" className="btn">Submit</button>
                         </form>
@@ -46,6 +51,7 @@ function Contact() {
                 </div>
             </div>
         </div>
+       </> 
     );
 }
 
