@@ -207,6 +207,7 @@ a:hover {
 #contact h1,
 #contact label {
     color: #FCFAF9;
+    text-align: center;
 }
 
 #backToTop .row {
@@ -216,7 +217,7 @@ a:hover {
 #contact ul {
     justify-content: center;
     margin-bottom: 25px;
-    margin-top: 50px;
+    margin-top: 25px;
     font-size: 48px;
 }
 
