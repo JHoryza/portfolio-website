@@ -20,7 +20,7 @@ function Projects() {
                     <ProjectCard name="Blackjack" tags={['React.js', 'RESTful API', 'Web Game']}
                         description="A Blackjack browser game built using REACT component architecture. Deck shuffle and card draw are implemented using an external card deck API."
                         img="./img/project2.jpg"
-                        repo="https://github.com/JHoryza/jokers-wild"
+                        repo="https://github.com/JHoryza/black-jack"
                         demo=""
                         demoText="Demo" />
                     <ProjectCard name="Millenium Card Catalog" tags={['Java', 'SQL', 'Desktop App']}
