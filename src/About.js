@@ -11,7 +11,7 @@ function About() {
                     <div className="col-md-5">
                         <h1>About me</h1>
                         <h6><i>Creative minded. Self-driven. Team player.</i></h6>
-                        <p>I am a software developer motivated by a chance to create, solve challenging problems, and learn new technologies. I developed a passion for programming from a young age and began to turn that passion into a career in 2016. My formal education is in Computer Science and I have a professional background in Industrial Engineering. Solving problems and implementing logic driven solutions has been my work for the last three years. Now I am channeling that experience as I make the transition into the software industry. </p>
+                        <p>I am a software developer motivated by a chance to create, solve challenging problems, and learn new technologies. My formal education is in Computer Science and I have a professional background in Industrial Engineering. Solving problems and implementing logic driven solutions has been my work for the last three years. Now I am channeling that experience as I make the transition into the software industry. </p>
                         <ul className="list-group list-group-horizontal">
                             <li className="list-group-item">
                                 <i className="bi bi-stack"> Java</i>
